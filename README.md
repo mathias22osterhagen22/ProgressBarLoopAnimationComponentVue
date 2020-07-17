@@ -1,11 +1,11 @@
 # ProgressBarLoopAnimationComponentVue
 This is a simple progress bar looping an animation where the duration can be pass ass parameter of the component
 
-Just copy pastle it: (height is in rem)
+### Just copy pastle it: (height is in rem)
 ```html
 <AutoLoopProgressBar :height="0.25" :animationDuration="refreshTime"></AutoLoopProgressBar>
 ```
-
+### Component
 ```html
 <template>
   <div class="progress" :style="`height: ${height}rem;`">
